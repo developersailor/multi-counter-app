@@ -38,12 +38,12 @@ const Counter = observer(() => {
         </View>
       ))}
       <Button
-        color={Colors.light.onPrimary}
+        color={Colors.dark.background}
         title="+ Sayaç Ekle"
         onPress={addCounter} // Add counter to counterAppStore
       />
       <Button
-        color={Colors.light.onPrimary}
+        color={Colors.dark.background}
         title="- Sayaç Azalt"
         onPress={removeCounter} // Add counter to counterAppStore
       />
